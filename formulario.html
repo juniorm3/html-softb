@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário</title>
+    </head>
+    <body>
+
+        <form method="POST" action="#" name="meu_form">
+
+            Nome completo:
+            <input type="text" name="campo_nome" />
+            <br/>
+
+            Sexo:
+            <input type="radio" name="campo_sexo" value="M" checked /> Masculino
+            <input type="radio" name="campo_sexo" value="F" /> Feminino
+            <br/>
+
+            <input type="checkbox" name="campo_maior" value="maior" checked/>
+            Declaro ser maior de 18 anos
+            <br/>
+
+            Como conheceu o site?
+            <select name="campo_como">
+                <option value="Nenhum">Selecione</option>
+                <option value="Ind">Indicação de amigo</option>
+                <option value="Out">Outro site</option>
+                <option value="Goo">Google</option>                
+            </select>
+            <br/>
+
+            <input type="reset" value="Limpar dados" />
+            <input type="button" value="Enviar" />
+        </form>
+    </body>
+</html>
